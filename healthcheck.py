@@ -21,3 +21,5 @@ if not check_disk_usage("/") or not check_cpu_usage():
     print("Error!")
 else:
     print("Everything is OK!", psutil.cpu_percent(1))
+
+    
